@@ -1,0 +1,51 @@
+ #page-container{
+  display:flex;
+}
+.productnode img{
+   width:200px;
+   height:200px;
+   border-radius:25px;
+}
+
+.productnode {
+   background-color: gray ;
+  width:200px;
+  height:300px;
+  font-family:Arial, sans-serif;
+    border-radius:25px;
+    border: 2px solid grey;
+}
+  
+    .rounded-button {
+        border-radius: 5px;
+        padding: 10px 20px;
+        background-color: #FF9D00;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates three columns */
+    grid-gap: 20px; /* Sets the gap between grid items */
+    padding: 10px; /* Padding around the entire grid */
+}
+
+h1 {
+  font-size: 5vw; /* Adjusts size based on the width of the viewport */
+  font-family: 'Roboto', sans-serif; /* Roboto font, weighted at 700 */
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+#cart {
+  width: 200px;
+  margin: 20px;
+  font-family: Arial, sans-serif; 
+  border: 2px solid red;
+}
+
+.cartnode img{
+  width: 50px;
+  height: 50px;
+}
